@@ -1,2 +1,2 @@
 # Timetable-Widget-iOS
-Timetable Medium Widget fro iOS
+Timetable Medium Widget for iOS
