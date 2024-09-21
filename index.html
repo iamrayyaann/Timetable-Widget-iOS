@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js" defer></script>
+</head>
+<body>
+    <h1>Timetable</h1>
+    <table id="timetable">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>
+                  <span contenteditable="true">8:20</span>
+                   -
+                  <span contenteditable="true">9:20</span>
+                </th>
+                <th>
+                  <span contenteditable="true">9:20</span>
+                   -
+                  <span contenteditable="true">10:20</span>
+                </th>
+                <th>
+                  <span contenteditable="true">10:35</span>
+                   -
+                  <span contenteditable="true">11:35</span>
+                </th>
+                <th>
+                  <span contenteditable="true">11:35</span>
+                   -
+                  <span contenteditable="true">12:35</span>
+                </th>
+                <th>
+                  <span contenteditable="true">1:20</span>
+                   -
+                  <span contenteditable="true">4:05</span>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>MON</th>
+                <td contenteditable="true">NoSQL</td>
+                <td contenteditable="true">BDA</td>
+                <td contenteditable="true">CC</td>
+                <td contenteditable="true">BDA</td>
+                <td contenteditable="true">INT</td>
+            </tr>
+            <tr>
+                <th>TUE</th>
+                <td contenteditable="true">EPM</td>
+                <td contenteditable="true">NoSQL</td>
+                <td contenteditable="true">BDA</td>
+                <td contenteditable="true">IOT</td>
+                <td contenteditable="true">INT</td>
+            </tr>
+            <tr>
+                <th>WED</th>
+                <td contenteditable="true">PW</td>
+                <td contenteditable="true">PW</td>
+                <td contenteditable="true">PW</td>
+                <td contenteditable="true">PW</td>
+                <td contenteditable="true">INT</td>
+            </tr>
+            <tr>
+                <th>THU</th>
+                <td contenteditable="true">IOT</td>
+                <td contenteditable="true">EPM</td>
+                <td contenteditable="true">CC</td>
+                <td contenteditable="true">EPM</td>
+                <td contenteditable="true">INT</td>
+            </tr>
+            <tr>
+                <th>FRI</th>
+                <td contenteditable="true">CC</td>
+                <td contenteditable="true">NoSQL</td>
+                <td contenteditable="true">EPM</td>
+                <td contenteditable="true">IOT</td>
+                <td contenteditable="true">INT</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button id="downloadBtn">Download Timetable</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
